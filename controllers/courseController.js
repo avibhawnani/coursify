@@ -1,4 +1,4 @@
-import { catchAsyncError } from "../middleware/CatchAsyncError.js"
+import { catchAsyncError } from "../middleware/catchAsyncError.js"
 import {Course} from "../models/CourseModel.js"
 import { Stats } from "../models/StatsModel.js";
 import getDataUri from "../utils/dataUri.js";
