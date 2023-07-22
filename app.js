@@ -27,8 +27,6 @@ app.use(
     })
 );
 
-
-
 app.use("/api/v1",course)
 app.use("/api/v1",user)
 app.use("/api/v1",payment)
