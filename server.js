@@ -4,9 +4,10 @@ import cloudinary from "cloudinary";
 import Razorpay from "razorpay";
 import nodeCorn from "node-cron";
 import { Stats } from "./models/StatsModel.js";
+
 connectDB();
 
-const PORT = process.env.PORT;
+const PORT = process.env.PORT; //defining port number
 
 // Cloudinary Config
 cloudinary.v2.config({
