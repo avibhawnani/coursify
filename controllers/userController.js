@@ -157,7 +157,7 @@ export const forgetPassword = catchAsyncError(async(req,res,next)=>{
         message:`Reset Token has been sent to ${user.email}`,
      });
 });
-
+// reset password function
 export const resetPassword = catchAsyncError(async(req,res,next)=>{
     const {token} = req.params;
 
