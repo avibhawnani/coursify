@@ -4,7 +4,7 @@ import cloudinary from "cloudinary";
 import Razorpay from "razorpay";
 import nodeCorn from "node-cron";
 import { Stats } from "./models/StatsModel.js";
-
+//connecting to db
 connectDB();
 
 const PORT = process.env.PORT; //defining port number
